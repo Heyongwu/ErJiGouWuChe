@@ -66,6 +66,7 @@ public class MyAdapter extends BaseExpandableListAdapter {
     public boolean hasStableIds() {
         return false;
     }
+    
 
     @Override
     public View getGroupView(final int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
